@@ -1,0 +1,159 @@
+body,input,button{
+    font-size: 1.4rem;
+}
+html{
+    font-size: 62.5%;
+    font-family: arial,sans-serif; 
+     
+}
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+ 
+}
+.headerlist{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin:0.5rem;
+    padding: 0.5rem;
+}
+
+nav>ul>li>a{
+    
+    color: black; 
+}
+a:hover{
+    text-decoration: underline;
+}
+.headerbutton{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 1rem  2rem;
+    margin: 1rem;
+    border:none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.headerimage{
+    width:4rem;
+    margin: 0.5rem;
+   
+}
+.headerimage:hover{
+    box-shadow: 0 0 1rem 0 gainsboro;
+    border-radius: 2rem; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;;
+}
+.searchtab{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border:1px solid gainsboro;
+    border-radius: 4rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.searchtab>img{
+    width:2rem;
+}
+input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    
+}
+.mainbutton{
+    padding:1rem;
+    margin: 2rem;
+    border: none;
+}
+.mainbutton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem gainsboro;
+}
+
+.mainbody3{
+    display: flex;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 220, 220, 0.932);
+    position: fixed;
+    bottom:0;
+    width:100vw;
+}
+.footerp{
+    flex:1;
+    padding: 1rem 2rem;
+}
+.footerbody{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    color: #70757A ;
+}
+.footerlist1,.footerlist2{
+    display: flex;
+    margin:1rem  0rem  0rem 0rem;
+}
+
+@media (max-width:630px){
+    .footerlist1,.footerlist2{
+        justify-content: center;
+    }
+    .searchtab{
+        width:95vw;
+    }
+}
+
+/*@media(max-height:522px){
+  body  {
+overflow:hidden;
+    }
+    main{
+        margin-bottom: 2rem;
+    }
+    footer{
+        position:relative;
+    }
+}
+
+@media(max-height:570px)and(max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        margin-bottom:13px;
+    }
+    footer{
+        position:relative;
+    }
+}
+.sign{
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;;
+}*/
