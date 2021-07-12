@@ -63,12 +63,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5vh;;
 }
 .searchtab{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 60%;
     border:1px solid gainsboro;
     border-radius: 4rem;
     padding: 1rem;
@@ -81,7 +80,7 @@ input{
     flex-grow: 1;
     border: none;
     outline: none;
-    
+    margin:0.1rem
 }
 .mainbutton{
     padding:1rem;
@@ -100,7 +99,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: rgba(220, 220, 220, 0.932);
-    position: fixed;
+    position: absolute;
     bottom:0;
     width:100vw;
 }
@@ -121,39 +120,10 @@ footer{
 }
 
 @media (max-width:630px){
-    .footerlist1,.footerlist2{
+    .footerbody{
         justify-content: center;
     }
     .searchtab{
         width:95vw;
     }
 }
-
-/*@media(max-height:522px){
-  body  {
-overflow:hidden;
-    }
-    main{
-        margin-bottom: 2rem;
-    }
-    footer{
-        position:relative;
-    }
-}
-
-@media(max-height:570px)and(max-width:600px){
-    body{
-        overflow-x: hidden;
-    }
-    main{
-        margin-bottom:13px;
-    }
-    footer{
-        position:relative;
-    }
-}
-.sign{
-    background-color: blue;
-    color: white;
-    border-radius: 0.5rem;;
-}*/
